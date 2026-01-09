@@ -1,0 +1,52 @@
+{
+  "conversations": [
+    {
+      "timestamp": "2026-01-09T18:07:23.765807",
+      "user": "Create an important task",
+      "agent": "Created important task",
+      "tokens": 7
+    },
+    {
+      "timestamp": "2026-01-09T18:07:23.765861",
+      "user": "List all tasks",
+      "agent": "Here are your tasks...",
+      "tokens": 7
+    },
+    {
+      "timestamp": "2026-01-09T18:07:23.765876",
+      "user": "Give me detailed report",
+      "agent": "Detailed report generated",
+      "tokens": 7
+    },
+    {
+      "timestamp": "2026-01-09T18:16:03.414384",
+      "user": "hi",
+      "agent": "\n\ud83e\udd16 TaskMaster Pro Help\n========================================\n\nI can help you manage tasks! Here's what I can do:\n\n\ud83d\udcdd **CREATE TASKS**\n  \u2022 \"Create a task to buy groceries\"\n  \u2022 \"Add important task: Finish report\"\n  \u2022 \"New task: Call mom (high priority)\"\n\n\ud83d\udccb **LIST TASKS**\n  \u2022 \"List all tasks\"\n  \u2022 \"Show completed tasks\"\n  \u2022 \"List high priority tasks\"\n  \u2022 \"What tasks do I have?\"\n\n\u2705 **COMPLETE TASKS**\n  \u2022 \"Complete task_0\"\n  \u2022 \"Mark the first task as done\"\n  \u2022 \"Finish task_1\"\n\n\ud83d\uddd1\ufe0f **DELETE TASKS**\n  \u2022 \"Delete task_2\"\n  \u2022 \"Remove the shopping task\"\n\n\ud83d\udcca **STATISTICS**\n  \u2022 \"Show statistics\"\n  \u2022 \"Get detailed report\"\n  \u2022 \"How many tasks do I have?\"\n\n\ud83d\udcac **SYSTEM**\n  \u2022 \"help\" - Show this message\n  \u2022 \"memory\" - Show conversation history\n  \u2022 \"exit\" - Exit the agent\n\n\ud83d\udca1 **EXAMPLES**\n  \u2022 \"Create a high priority task to finish the project\"\n  \u2022 \"Show me all pending tasks\"\n  \u2022 \"Complete the first task and show stats\"\n\nMode: \u26a1 Simple Command\nVersion: 2.0.0\n        ",
+      "tokens": 157
+    },
+    {
+      "timestamp": "2026-01-09T18:16:19.400422",
+      "user": "memory",
+      "agent": "\ud83d\udde3\ufe0f Recent conversations:\n1. You: Create an important task...\n   Me: Created important task...\n2. You: List all tasks...\n   Me: Here are your tasks......\n3. You: Give me detailed report...\n   Me: Detailed report generated...\n4. You: hi...\n   Me: \n\ud83e\udd16 TaskMaster Pro Help\n=================...\n",
+      "tokens": 43
+    },
+    {
+      "timestamp": "2026-01-09T18:16:31.803258",
+      "user": "create task oop",
+      "agent": "\u2705 Created task: Task oop (Priority: medium, ID: task_0)",
+      "tokens": 12
+    },
+    {
+      "timestamp": "2026-01-09T18:16:39.532034",
+      "user": "delete task oop",
+      "agent": "Please specify a task ID like 'task_0'",
+      "tokens": 10
+    }
+  ],
+  "preferences": {
+    "prefers_priorities": true,
+    "prefers_details": true,
+    "last_task_created": "2026-01-09T18:16:31.803233"
+  },
+  "saved_at": "2026-01-09T18:16:45.003320"
+}
